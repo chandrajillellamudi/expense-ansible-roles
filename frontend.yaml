@@ -1,4 +1,4 @@
-- name: configure frontend server
+- name: configure {{ component }} server
   hosts: web
   become: yes
   roles:
